@@ -1,0 +1,72 @@
+/* Full screen center alignment */
+.home-container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card styling */
+.home-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.home-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.highlight {
+  color: #ffeb3b;
+}
+
+/* Paragraph */
+.home-card p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Sign Up button */
+.btn-signup {
+  background: #ff5722;
+  color: white;
+}
+.btn-signup:hover {
+  background: #e64a19;
+}
+
+/* Sign In button */
+.btn-login {
+  background: #2196f3;
+  color: white;
+}
+.btn-login:hover {
+  background: #1976d2;
+}

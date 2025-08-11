@@ -1,0 +1,84 @@
+/* Full screen center layout */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  padding: 20px;
+}
+
+/* Glassmorphism card */
+.register-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+/* Input styling */
+.register-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.register-card input:focus {
+  border: 2px solid #00e676;
+  background: white;
+}
+
+/* Button styling */
+.register-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  background: #43a047;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.register-card button:hover {
+  background: #388e3c;
+  transform: translateY(-2px);
+}
+
+/* Footer text */
+.footer-text {
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+
+.footer-text a {
+  color: #ffd700;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+  padding: 20px;
+}
+
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  color: white;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.dashboard-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dashboard-actions button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #00e676;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.dashboard-actions button:hover {
+  background: #00c853;
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  background: #ff5252 !important;
+  color: white !important;
+}
+
+.logout-btn:hover {
+  background: #d50000 !important;
+}
